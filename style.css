@@ -22,6 +22,7 @@ body{
     width: 130px;
     margin: 0 10px;
     padding: 5px 10px;
+    padding-top: 10px;
     border: 1px solid transparent;
     border-radius: 3px;
 }
@@ -34,6 +35,7 @@ body{
 .flex{
     display: flex;
     justify-content: center;
+    padding: 3px;
 }
 .flex span,i{
     color: white;
@@ -50,18 +52,20 @@ body{
 }
 .map i{
     margin-top: 17px;
-    padding-left: 5px;
+    padding-left: 2px;
     font-size: 17px;
 }
 .map div{
-    padding: 5px;
+    padding-top: 8px;
+    padding-bottom: 2px;
+    padding: 3.6px;
     display: flex;
     cursor: pointer;
     flex-direction: column;
 }
 .map div span:first-child{
-    font-weight: 400;
-    font-size: 13px;
+    font-weight: 350;
+    font-size: 12px;
 }
 .map div span{
     font-weight: bold;
@@ -191,4 +195,31 @@ body{
     color: #131a22;
     top: 22px;
     left: 23px;
+}
+.cart:hover{
+    border: 1px solid white;
+    border-radius: 3px;
+}
+.map:hover{
+    border: 1px solid white;
+    border-radius: 3px;
+}
+.logo img:hover{
+    border: 1px solid white;
+    border-radius: 3px;
+}
+.lang:hover{
+    border: 1px solid white;
+    border-radius: 3px;
+}
+.sign:hover{
+    border: 1px solid white;
+    border-radius: 3px;
+}
+.input .fa-search:hover{
+    background-color: #fdae46;
+}
+.input div:hover{
+    background-color: rgb(204,202,202);
+    color: rgb(0, 0, 0);
 }
