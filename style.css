@@ -240,9 +240,8 @@ body{
 }
 .second span{
     font-size: 15px;
-
 }
-.second1 div{
+.second1 div i{
     font-size: 20px;
     cursor: pointer;
     border: 1px solid transparent;
@@ -252,4 +251,53 @@ body{
     padding: 5px 10px;
     font-size: 15px;
     margin: 7px 0;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+.second1{
+    flex: 0.06;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second1 div{
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+
+}
+.second2{
+    display: flex;
+    flex: 0.74;
+    justify-content: flex-start;
+
+}
+.second3{
+    flex: 0.2;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    overflow: hidden;
+}
+.second3 span{
+    padding: 5px 20px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 3px;
+
+}
+.second1 div span{
+    padding: 5px 10px;
+    cursor: pointer;
+      
+}
+.second1 div:hover{
+    border: 1px solid white;
+}
+.second2 li:hover{
+    border: 1px solid white;
+}
+.second3 span:hover{
+    border: 1px solid white;
 }
