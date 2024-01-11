@@ -320,32 +320,43 @@ body{
 .image-box{
     display: flex;
     position: absolute;
-    animation: carousel 15s alternate infinite;
+    animation: carousel 20s alternate infinite;
 }
 @keyframes carousel {
     0%{
         left: 0;
     }
-    20%{
+    8%{
         left: 0%;
+    }
+    16%{
+        left: -1257px;
     }
     24%{
         left: -1257px;
     }
-    50%{
-        left: -1257px;
-    }
-    54%{
+    32%{
         left: calc(-1257*2px);
     }
-    80%{
+    40%{
         left: calc(-1257*2px);
     }
-    84%{
+    48%{
         left: calc(-1257*3px);
+    }
+    59%{
+        left: calc(-1257*3px);
+    }
+    70%{
+        left: calc(-1257*4px);
+    }
+    83%{
+        left: calc(-1257*4px);
+    }
+    94%{
+        left: calc(-1257*5px);
     }
     100%{
-        left: calc(-1257*3px);
+        left: calc(-1257*5px);
     }
-
 }
