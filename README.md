@@ -1,4 +1,4 @@
 
-https://github.com/prokaushik/Amazone-Clone/assets/111419081/d819761e-a826-483d-9053-4b3691555532
-Uploading video.mp4…
+
+https://github.com/prokaushik/Amazone-Clone/assets/111419081/730fb08d-1d9e-40a2-a875-fbd21cc72685
 
